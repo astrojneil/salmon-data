@@ -10,7 +10,7 @@ def extractyear(data, year):
 
 @st.cache
 def loaddata():
-    return pd.read_csv('ASL_master.csv', usecols = ["Species", "sampleYear", "Length"])
+    return pd.read_csv('ASL_small.csv', usecols = ["Species", "sampleYear", "Length"])
 
 st.title("Salmon Data")
 
